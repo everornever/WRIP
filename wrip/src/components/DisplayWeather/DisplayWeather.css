@@ -1,0 +1,71 @@
+.table_box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.tible {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.tibleRow {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.tibleRow:hover {
+  transition: all 0.3s ease-out;
+  background: rgb(209, 209, 209);
+  color: #ffffff;
+  transition: 250ms;
+}
+
+.tibleRow:focus {
+  background-color: #b6e2b6;
+}
+
+.tibleCell {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.ranking_dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 5px;
+  background-color: greenyellow;
+}
+
+.btns {
+  font-size: 15px;
+  border-radius: 8px;
+  width: 100px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.btns:hover {
+  transition: all 0.3s ease-out;
+  background: rgb(28, 28, 28);
+  color: #ffffff;
+  transition: 250ms;
+}
+
+.empf {
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+  line-height: 24px;
+}
